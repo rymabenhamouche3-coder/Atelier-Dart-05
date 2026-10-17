@@ -11,4 +11,8 @@ void main() {
   } on FormatException catch (e) {
     print("Erreur de format : ${e.message}");
   }
+
+finally {
+  print("Fin d'opération");
+}
 }
